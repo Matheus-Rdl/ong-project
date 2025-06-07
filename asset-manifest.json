@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ong-project/static/css/main.59442672.css",
+    "main.js": "/ong-project/static/js/main.942802d5.js",
+    "static/js/453.366f8f03.chunk.js": "/ong-project/static/js/453.366f8f03.chunk.js",
+    "index.html": "/ong-project/index.html",
+    "main.59442672.css.map": "/ong-project/static/css/main.59442672.css.map",
+    "main.942802d5.js.map": "/ong-project/static/js/main.942802d5.js.map",
+    "453.366f8f03.chunk.js.map": "/ong-project/static/js/453.366f8f03.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59442672.css",
+    "static/js/main.942802d5.js"
+  ]
+}
