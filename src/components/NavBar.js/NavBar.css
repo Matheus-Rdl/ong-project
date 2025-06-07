@@ -1,0 +1,27 @@
+.nav {
+  width: 80px;
+  background: green;
+  position: fixed;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.nav.active {
+  width: 240px;
+}
+
+.nav .arrow-menu {
+  font-size: 32px;
+  color: greenyellow;
+  position: absolute;
+  margin-top: 16px;
+  right: -12px;
+  background-color: green;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.nav .arrow-menu:hover {
+  transform: scale(1.2);
+}
