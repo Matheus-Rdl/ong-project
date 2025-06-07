@@ -9,16 +9,19 @@ import Settings from "./pages/Settings.js";
 
 function App() {
   return (
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/register" element={<Register/>}/>
-          <Route path="/courses" element={<Courses/>}/>
-          <Route path="/economic" element={<Economic/>}/> 
-          <Route path="/settings" element={<Settings/>}/> 
-        </Routes>
-      </Router>
+    <Router>
+      <header className="header">
+        <p>Ong Amigos da Esperança | 07/06/2025 | Cedeck Silvain</p>
+      </header>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/economic" element={<Economic />} />
+        <Route path="/settings" element={<Settings />} />
+      </Routes>
+    </Router>
   );
 }
 
