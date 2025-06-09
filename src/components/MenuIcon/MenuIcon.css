@@ -59,3 +59,8 @@
 .menu .text-hover {
   opacity: 0;
 }
+
+.menu .text-none{
+  opacity: 0;
+  position: absolute;
+}

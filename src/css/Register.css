@@ -1,0 +1,9 @@
+.register {
+  display: flex;
+  padding: 60px 0 0 100px;
+}
+
+.register .title{
+  font-size: 26px;
+  color: #9c9b9b;
+}
