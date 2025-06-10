@@ -1,9 +1,84 @@
 .register {
   display: flex;
-  padding: 60px 0 0 100px;
+  padding: 60px 20px 0 100px;
+  display: flex;
+  flex-direction: column;
 }
 
-.register .title{
+.register .title {
   font-size: 26px;
   color: #9c9b9b;
+}
+
+.register .card-div {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  gap: 28px;
+}
+
+.register .card-actions {
+  display: flex;
+  margin: 16px 0 0 32px;
+  gap: 8px;
+}
+
+.register .card-actions button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid green;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+.register .card-actions button:hover {
+  transform: scale(0.95);
+  background-color: rgb(158, 227, 55);
+}
+
+.register .card-list-user {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  background-color: rgb(156, 155, 155, 0.5);
+}
+
+.register .card-list-user table {
+  width: auto;
+}
+
+.register .card-list-user table tr td {
+  padding: 10px 6px;
+}
+
+.register .card-list-user table tr .list-id {
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  background-color: rgb(173, 255, 47, 0.8);
+}
+.register .card-list-user table tr .list-name {
+  width: 400px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  background-color: rgb(173, 255, 47, 0.8);
+}
+
+.register .card-list-user table tr .list-datanasc {
+  width: 120px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: rgb(173, 255, 47, 0.8);
+}
+
+.register .card-list-user table tr .list-cpf {
+  width: 150px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: rgb(173, 255, 47, 0.8);
+}
+
+.register .card-list-user table tr td{
+    border: 1px solid gray;
 }

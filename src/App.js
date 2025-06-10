@@ -2,7 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/index.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.js";
-import Register from "./pages/Register.js";
+import Register from "./pages/Register/Register.js";
 import Courses from "./pages/Courses.js";
 import Economic from "./pages/Economic.js";
 import Settings from "./pages/Settings.js";

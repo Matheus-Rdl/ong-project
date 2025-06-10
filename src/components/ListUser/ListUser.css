@@ -1,0 +1,13 @@
+
+.list-user td{
+    transition: 0.3s;
+}
+
+.list-user td:hover{
+    background-color:rgb(156, 155, 155, 0.5);;
+}
+
+.list-user-active{
+    transform: scale(1.02);
+    background-color:#9c9b9b;
+}
